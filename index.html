@@ -1,23 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title> My Bio </title>
+    <title> Shuheng (Steven) Wang's Links </title>
 
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
     <style>
       * {
-        border: 1px red dashed;
+        border: 1px #ff0000 dashed;
+      }
+
+      body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+
+      .avatar-image {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+      }
+      
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
       }
     </style>
-  
   </head>
   
   <body>
     <div class="main-container">
 
       <div class="image-row">
-        <img src="/christoph-nolte-QcoWnyccR5I-unsplash.jpg" alt="image">
+        <img class = "avatar-image" src="/christoph-nolte-QcoWnyccR5I-unsplash.jpg" alt="image">
       </div>
 
       <div class="name-row">
@@ -38,14 +55,14 @@
 
       <div class="links-row">
         <div class="item">
-          <img src ="/logo2.png" alt="my-startup-image">
+          <img class = "thumbnail" src ="/logo2.png" alt="my-startup-image">
           <a href = "https://thecorrelate.com/" target="_blank">
             My startup Correlate AI
           </a>
         </div>
 
         <div class="item">
-          <img src ="/andrea-de-santis-zwd435-ewb4-unsplash" alt="ai-image">
+          <img class = "thumbnail" src ="/andrea-de-santis-zwd435-ewb4-unsplash.jpg" alt="ai-image">
           <a href = "https://www.nvidia.com/en-us/glossary/large-language-models/" target="_blank">
             Large Language Models Explained
           </a>
