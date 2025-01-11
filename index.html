@@ -4,15 +4,28 @@
     <title> Shuheng (Steven) Wang's Links </title>
 
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
     <style>
+      html {
+        min-height: 100%;
+      }
+
       * {
         border: 1px #ff0000 dashed;
       }
 
       body {
+        min-height: 100%;
         padding-top: 40px;
         padding-bottom: 40px;
-        background: radial-gradient(circle at 50% 50%, #031a5b, #03396b, #005784, #00779d, #0098b5, #00bac8, #00dcd8, #2effe3);
+        background: radial-gradient(circle at 50% 50%, #f9f9f9, #d4dad6, #afbbb6, #8b9d9b, #698083, #49636f, #2c475c, #142b4e);
+        color: rgb(0, 0, 0);
+      }
+
+      a {
+        color: rgba(0, 0, 0);
       }
 
       .avatar-image {
@@ -28,7 +41,34 @@
         border-radius: 48px;
         object-fit: cover;
       }
-      
+
+      .item {
+        background-color: rgba(166, 221, 217, 0.5);
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      .main-container {
+        max-width: 640px;
+        margin: auto;
+      }
+      .image-row {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .name-row {
+        margin-bottom: 30px;
+        text-align: center;
+      }
+      .social-icons-row {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 30px;
+      }
+      .link-text {
+        text-align: center;
+        flex-grow: 1;
+      }
     </style>
   </head>
   
@@ -58,14 +98,14 @@
       <div class="links-row">
         <div class="item">
           <img class = "thumbnail" src ="/logo2.png" alt="my-startup-image">
-          <a href = "https://thecorrelate.com/" target="_blank">
+          <a class="link-text" href = "https://thecorrelate.com/" target="_blank">
             My startup Correlate AI
           </a>
         </div>
 
         <div class="item">
           <img class = "thumbnail" src ="/andrea-de-santis-zwd435-ewb4-unsplash.jpg" alt="ai-image">
-          <a href = "https://www.nvidia.com/en-us/glossary/large-language-models/" target="_blank">
+          <a class="link-text" href = "https://www.nvidia.com/en-us/glossary/large-language-models/" target="_blank">
             Large Language Models Explained
           </a>
         </div>
